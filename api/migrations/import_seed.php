@@ -246,17 +246,37 @@ try {
     $insNsrc = $pdo->prepare('INSERT INTO news_sources (news_id, label, url, sort) VALUES (?,?,?,?)');
     $insNgal = $pdo->prepare('INSERT INTO news_gallery (news_id, url, sort) VALUES (?,?,?)');
     $insNst = $pdo->prepare('INSERT IGNORE INTO news_specialty_tags (news_id, tag_id) VALUES (?,?)');
+
+    // Cover images live as files in the frontend folder /public/news-images and
+    // the DB stores only the path. We cycle the available files across articles
+    // (the original demo used 3 placeholder covers the same way). Drop more files
+    // into that folder and re-run this importer to refresh covers.
+    $coverDir = __DIR__ . '/../../public/news-images';
+    $coverFiles = is_dir($coverDir)
+        ? array_values(array_filter(scandir($coverDir), static fn ($f) => preg_match('/\.(jpe?g|png|webp)$/i', $f)))
+        : [];
+    sort($coverFiles);
+    $covers = array_map(static fn ($f) => '/news-images/' . $f, $coverFiles);
+    $coverCount = count($covers);
+
+    $ni = 0;
     foreach (($data['news'] ?? []) as $n) {
+        $cover = $n['coverImageUrl'] ?? ($coverCount ? $covers[$ni % $coverCount] : null);
+        $gallery = $n['galleryImageUrls'] ?? [];
+        if (!$gallery && $coverCount) {
+            $gallery = [$covers[$ni % $coverCount], $covers[($ni + 1) % $coverCount]];
+        }
         $insNews->execute([
             $n['id'], $n['title'] ?? '', $n['summary'] ?? '', $j($n['body'] ?? []), $n['category'] ?? '',
             $n['specialization'] ?? null, $n['audience'] ?? 'Все', $n['author'] ?? '', $n['publishedAt'] ?? '',
-            !empty($n['isPublic']) ? 1 : 0, $n['organizationId'] ?? null, $n['coverImageUrl'] ?? null,
+            !empty($n['isPublic']) ? 1 : 0, $n['organizationId'] ?? null, $cover,
             $n['videoUrl'] ?? null, $n['guestPreview'] ?? null, $n['registeredOnly'] ?? null, $nowDt,
         ]);
         foreach (($n['tags'] ?? []) as $tag) $insNtag->execute([$n['id'], (string) $tag]);
         foreach (($n['sources'] ?? []) as $i => $src) $insNsrc->execute([$n['id'], $src['label'] ?? '', $src['url'] ?? '', $i]);
-        foreach (($n['galleryImageUrls'] ?? []) as $i => $url) $insNgal->execute([$n['id'], (string) $url, $i]);
+        foreach ($gallery as $i => $url) $insNgal->execute([$n['id'], (string) $url, $i]);
         foreach (($n['specialtyTagIds'] ?? []) as $tag) $insNst->execute([$n['id'], (string) $tag]);
+        $ni++;
     }
     $counts['news'] = count($data['news'] ?? []);
 
