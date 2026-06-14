@@ -1,0 +1,285 @@
+[2m18:08:31[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\Programming\Claude code project\profbase\src\app\pages\ped\PedCabinetPage.tsx: Unexpected token, expected "," (114:8)
+
+[0m [90m 112 |[31m         [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m 113 |[31m
+[31m[1m>[22m[31m[90m 114 |[31m         {[90m/* Journal stats */[31m}
+ [90m     |[31m         [31m[1m^[22m[31m
+ [90m 115 |[31m         {hasJournal [33m?[31m (
+ [90m 116 |[31m         [33m<[31m[33mdiv[31m className[33m=[31m[32m"bg-white rounded-xl border border-slate-200 p-5"[31m[33m>[31m
+ [90m 117 |[31m           [33m<[31m[33mdiv[31m className[33m=[31m[32m"flex items-center justify-between mb-4"[31m[33m>[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/Programming/Claude code project/profbase/src/app/pages/ped/PedCabinetPage.tsx[39m:114:8
+[33m  112|          </div>
+  113|  
+  114|          {/* Journal stats */}
+     |          ^
+  115|          {hasJournal ? (
+  116|          <div className="bg-white rounded-xl border border-slate-200 p-5">[39m
+      at constructor (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.unexpected (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:6636:16)
+      at TypeScriptParserMixin.expect (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:6916:12)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11678:14)
+      at TypeScriptParserMixin.parseExprAtom (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11348:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:4776:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9803:20)
+      at D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10817:39
+      at TypeScriptParserMixin.allowInAnd (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:12443:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10817:17)
+      at TypeScriptParserMixin.parseConditional (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10908:30)
+      at TypeScriptParserMixin.parseConditional (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9620:18)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10902:17)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9803:20)
+      at TypeScriptParserMixin.parseExpressionBase (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10801:23)
+      at D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10797:39
+      at TypeScriptParserMixin.allowInAnd (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:12443:12)
+      at TypeScriptParserMixin.parseExpression (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10797:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:4644:31)
+      at TypeScriptParserMixin.jsxParseElementAt (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:4723:36)
+      at TypeScriptParserMixin.jsxParseElementAt (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElement (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:4761:17)
+      at TypeScriptParserMixin.parseExprAtom (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:4771:19)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10848:21)
+      at D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9792:39
+      at TypeScriptParserMixin.tryParse (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:6924:20)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9792:18)
+      at D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10817:39
+      at TypeScriptParserMixin.allowInAnd (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:12443:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10817:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:12510:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11692:28)
+      at TypeScriptParserMixin.parseExprAtom (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11348:23)
+[2m18:08:31[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\Programming\Claude code project\profbase\src\app\pages\ped\PedCabinetPage.tsx: Unexpected token, expected "," (114:8)
+
+[0m [90m 112 |[31m         [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m 113 |[31m
+[31m[1m>[22m[31m[90m 114 |[31m         {[90m/* Journal stats */[31m}
+ [90m     |[31m         [31m[1m^[22m[31m
+ [90m 115 |[31m         {hasJournal [33m?[31m (
+ [90m 116 |[31m         [33m<[31m[33mdiv[31m className[33m=[31m[32m"bg-white rounded-xl border border-slate-200 p-5"[31m[33m>[31m
+ [90m 117 |[31m           [33m<[31m[33mdiv[31m className[33m=[31m[32m"flex items-center justify-between mb-4"[31m[33m>[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/Programming/Claude code project/profbase/src/app/pages/ped/PedCabinetPage.tsx[39m:114:8
+[33m  112|          </div>
+  113|  
+  114|          {/* Journal stats */}
+     |          ^
+  115|          {hasJournal ? (
+  116|          <div className="bg-white rounded-xl border border-slate-200 p-5">[39m
+      at constructor (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.unexpected (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:6636:16)
+      at TypeScriptParserMixin.expect (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:6916:12)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11678:14)
+      at TypeScriptParserMixin.parseExprAtom (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11348:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:4776:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9803:20)
+      at D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10817:39
+      at TypeScriptParserMixin.allowInAnd (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:12443:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10817:17)
+      at TypeScriptParserMixin.parseConditional (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10908:30)
+      at TypeScriptParserMixin.parseConditional (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9620:18)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10902:17)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9803:20)
+      at TypeScriptParserMixin.parseExpressionBase (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10801:23)
+      at D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10797:39
+      at TypeScriptParserMixin.allowInAnd (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:12443:12)
+      at TypeScriptParserMixin.parseExpression (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10797:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:4644:31)
+      at TypeScriptParserMixin.jsxParseElementAt (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:4723:36)
+      at TypeScriptParserMixin.jsxParseElementAt (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElement (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:4761:17)
+      at TypeScriptParserMixin.parseExprAtom (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:4771:19)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10848:21)
+      at D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9792:39
+      at TypeScriptParserMixin.tryParse (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:6924:20)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9792:18)
+      at D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10817:39
+      at TypeScriptParserMixin.allowInAnd (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:12443:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10817:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:12510:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11692:28)
+      at TypeScriptParserMixin.parseExprAtom (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11348:23)
+[2m18:08:38[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: D:\Programming\Claude code project\profbase\src\app\pages\ped\PedCabinetPage.tsx: Unexpected token, expected "," (114:8)
+
+[0m [90m 112 |[39m         [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m
+ [90m 113 |[39m
+[31m[1m>[22m[39m[90m 114 |[39m         {[90m/* Journal stats */[39m}
+ [90m     |[39m         [31m[1m^[22m[39m
+ [90m 115 |[39m         {hasJournal [33m?[39m (
+ [90m 116 |[39m         [33m<[39m[33mdiv[39m className[33m=[39m[32m"bg-white rounded-xl border border-slate-200 p-5"[39m[33m>[39m
+ [90m 117 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m"flex items-center justify-between mb-4"[39m[33m>[39m[0m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/Programming/Claude code project/profbase/src/app/pages/ped/PedCabinetPage.tsx[39m:114:8
+[33m  112|          </div>
+  113|  
+  114|          {/* Journal stats */}
+     |          ^
+  115|          {hasJournal ? (
+  116|          <div className="bg-white rounded-xl border border-slate-200 p-5">[39m
+[2m18:08:38[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\Programming\Claude code project\profbase\src\app\pages\ped\PedCabinetPage.tsx: Unexpected token, expected "," (114:8)
+
+[0m [90m 112 |[31m         [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m 113 |[31m
+[31m[1m>[22m[31m[90m 114 |[31m         {[90m/* Journal stats */[31m}
+ [90m     |[31m         [31m[1m^[22m[31m
+ [90m 115 |[31m         {hasJournal [33m?[31m (
+ [90m 116 |[31m         [33m<[31m[33mdiv[31m className[33m=[31m[32m"bg-white rounded-xl border border-slate-200 p-5"[31m[33m>[31m
+ [90m 117 |[31m           [33m<[31m[33mdiv[31m className[33m=[31m[32m"flex items-center justify-between mb-4"[31m[33m>[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/Programming/Claude code project/profbase/src/app/pages/ped/PedCabinetPage.tsx[39m:114:8
+[33m  112|          </div>
+  113|  
+  114|          {/* Journal stats */}
+     |          ^
+  115|          {hasJournal ? (
+  116|          <div className="bg-white rounded-xl border border-slate-200 p-5">[39m
+      at constructor (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.unexpected (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:6636:16)
+      at TypeScriptParserMixin.expect (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:6916:12)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11678:14)
+      at TypeScriptParserMixin.parseExprAtom (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11348:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:4776:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9803:20)
+      at D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10817:39
+      at TypeScriptParserMixin.allowInAnd (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:12443:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10817:17)
+      at TypeScriptParserMixin.parseConditional (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10908:30)
+      at TypeScriptParserMixin.parseConditional (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9620:18)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10902:17)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9803:20)
+      at TypeScriptParserMixin.parseExpressionBase (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10801:23)
+      at D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10797:39
+      at TypeScriptParserMixin.allowInAnd (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:12443:12)
+      at TypeScriptParserMixin.parseExpression (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10797:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:4644:31)
+      at TypeScriptParserMixin.jsxParseElementAt (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:4723:36)
+      at TypeScriptParserMixin.jsxParseElementAt (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElement (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:4761:17)
+      at TypeScriptParserMixin.parseExprAtom (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:4771:19)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10848:21)
+      at D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9792:39
+      at TypeScriptParserMixin.tryParse (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:6924:20)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9792:18)
+      at D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10817:39
+      at TypeScriptParserMixin.allowInAnd (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:12443:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10817:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:12510:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11692:28)
+      at TypeScriptParserMixin.parseExprAtom (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11348:23)
+[2m18:08:46[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\Programming\Claude code project\profbase\src\app\pages\ped\PedCabinetPage.tsx: Unexpected token, expected "," (114:8)
+
+[0m [90m 112 |[31m         [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m 113 |[31m
+[31m[1m>[22m[31m[90m 114 |[31m         {[90m/* Journal stats */[31m}
+ [90m     |[31m         [31m[1m^[22m[31m
+ [90m 115 |[31m         {hasJournal [33m?[31m (
+ [90m 116 |[31m         [33m<[31m[33mdiv[31m className[33m=[31m[32m"bg-white rounded-xl border border-slate-200 p-5"[31m[33m>[31m
+ [90m 117 |[31m           [33m<[31m[33mdiv[31m className[33m=[31m[32m"flex items-center justify-between mb-4"[31m[33m>[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/Programming/Claude code project/profbase/src/app/pages/ped/PedCabinetPage.tsx[39m:114:8
+[33m  112|          </div>
+  113|  
+  114|          {/* Journal stats */}
+     |          ^
+  115|          {hasJournal ? (
+  116|          <div className="bg-white rounded-xl border border-slate-200 p-5">[39m
+      at constructor (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.unexpected (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:6636:16)
+      at TypeScriptParserMixin.expect (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:6916:12)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11678:14)
+      at TypeScriptParserMixin.parseExprAtom (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11348:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:4776:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9803:20)
+      at D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10817:39
+      at TypeScriptParserMixin.allowInAnd (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:12443:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10817:17)
+      at TypeScriptParserMixin.parseConditional (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10908:30)
+      at TypeScriptParserMixin.parseConditional (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9620:18)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10902:17)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9803:20)
+      at TypeScriptParserMixin.parseExpressionBase (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10801:23)
+      at D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10797:39
+      at TypeScriptParserMixin.allowInAnd (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:12443:12)
+      at TypeScriptParserMixin.parseExpression (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10797:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:4644:31)
+      at TypeScriptParserMixin.jsxParseElementAt (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:4723:36)
+      at TypeScriptParserMixin.jsxParseElementAt (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElement (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:4761:17)
+      at TypeScriptParserMixin.parseExprAtom (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:4771:19)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10848:21)
+      at D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9792:39
+      at TypeScriptParserMixin.tryParse (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:6924:20)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:9792:18)
+      at D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10817:39
+      at TypeScriptParserMixin.allowInAnd (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:12443:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:10817:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:12510:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11692:28)
+      at TypeScriptParserMixin.parseExprAtom (D:\Programming\Claude code project\profbase\node_modules\@babel\parser\lib\index.js:11348:23)
